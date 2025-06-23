@@ -47,13 +47,14 @@ Xây dựng một mô hình dự đoán xem khách hàng **có vỡ nợ thẻ t
 
 ---
 
-## 📂 Cấu trúc thư mục đề xuất
+## 📂 Cấu trúc thư mục 
 
+```
 credit-default-prediction/
-├── data/ # Bộ dữ liệu gốc
-├── notebooks/ # File notebook Jupyter
-├── output/ # Hình ảnh, báo cáo, biểu đồ
-├── models/ # (tuỳ chọn) mô hình đã lưu
-└── README.md # Tài liệu mô tả dự án
+├── data/                   # Bộ dữ liệu gốc
+│   └── UCI_Credit_Card.csv
+├── EDA.ipynb            # Notebook Jupyter
+└── README.md               # Tài liệu mô tả dự án
+```
 
 ---
